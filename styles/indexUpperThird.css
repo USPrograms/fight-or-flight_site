@@ -1,0 +1,164 @@
+body,html{
+    background-image: url("../images/Presentation.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+}
+.mainLogo{
+    justify-self: center;
+    width: 75%;
+    margin-top: -18%;
+    
+    
+}
+.top-bar{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    height: 50%;
+    
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 0.5%;
+}
+.sub-bar{
+    
+    display: scroll;
+    justify-content: center;
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #ea0000;
+    font-size: 50px;
+}
+.wrapper{
+    margin-top:-14%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+.Download{
+    font-family: "Averia Serif Libre", serif;
+    text-shadow: 0px 0px 2px black; 
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    /* color: #ea0000; */
+    font-size: 70px;
+}
+.Download-Bar{
+    margin-top: -2%;
+    justify-content: center;
+    display: flex;
+    
+}
+.download-block{
+    background-color:rgb(0, 0, 204,0.4);
+    width: 98%;
+    /* margin-left: 15%; */
+    justify-self: center;
+    display: flex;
+}
+@media (min-width: 910px) {
+    .download-block {
+        width: 70%; /* 70% width for screens wider than 768px */
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+.download-box{
+    background-color:rgb(0, 0, 204,0.4);
+    width: 30%;
+    margin: 1%;
+}
+.content-cell{
+    padding: 10px;
+ 
+}
+.download-button{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-family: "Averia Serif Libre", serif;; 
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 1.5vw;
+    text-align: right;
+    text-decoration: none;
+}
+.download-button-wrapper{
+    background-color:rgb(0, 0, 204,0.6);
+    text-align: center;
+    justify-self: center;
+    justify-content: center;
+    padding: 10px 20px;
+    display: flex;
+    bottom: 0;
+    height: 40px;
+    width: 70%;
+    margin-top: 10%;
+}
+.download-button-wrapper:hover{
+    background-color:rgba(209, 209, 204, 0.4);
+    transition: 0.7s;
+}
+.download-button:hover{
+    color: #ea0000;
+    transition: 0.7s;
+}
+.arrow{
+    color: #ea0000;
+    font-size: 7vw;
+    margin-top: 4%;
+    width: 10%;
+    justify-self: center;
+}
+.download-box-header{
+    display: inline;
+    justify-self: center;
+    width: 100%;
+    font-family: "Averia Serif Libre", serif;; 
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    font-size: 2vw;
+    text-align: center;
+}
+/* .download-spacing-wrapper{
+    background-color: green;
+}
+
+.discord-logo{
+    background-color: blueviolet;
+} */
+ /* .steam-logo-outer{
+    contain: content;
+ }
+*/
+.button-text{
+    justify-self: right;
+    margin-left: 1vw;
+    margin-top: -0vh;
+}
+.discord-logo{
+    display: block;
+    contain: content;
+    margin-top: 0.4vh;
+    height: 3.375vmin;
+    width: 4.5vmin;
+} 
+.download-box-description{
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 400;
+    font-style: normal;
+    color:white;
+    font-size: 1.6vw;
+}
+@media (min-width: 910px) {
+    .download-box-description{
+        font-size: 15px;
+    }
+}
