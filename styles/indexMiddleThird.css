@@ -51,3 +51,9 @@
     padding: 0 20px;
     list-style-type: disc;
 }
+.footer{
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 700;
+    margin-left: 20px;
+    color: #ea0000;
+}
