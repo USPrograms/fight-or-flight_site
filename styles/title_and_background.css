@@ -1,0 +1,55 @@
+body,html{
+    background-image: url("../images/Presentation.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+}
+.mainLogo{
+    justify-self: center;
+    width: 75%;
+    margin-top: -18%;
+    
+    
+}
+.top-bar{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    height: 50%;
+    
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 0.5%;
+}
+.sub-bar{
+    
+    display: scroll;
+    justify-content: center;
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #ea0000;
+    font-size: 50px;
+}
+.wrapper{
+    margin-top:-14%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+    z-index: 2;
+}
+.image-bar{
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    z-index: 0;
+}
+.plane1{
+    width: 34vw;
+    margin: 10%;
+    margin-top: -14%;
+    z-index: 1;
+    position: relative;
+    
+}
